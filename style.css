@@ -1,0 +1,63 @@
+h1 {
+    color: white;
+    margin: 30px;
+}
+
+.menu {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+.item {
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item :hover p {
+    opacity: 1;
+}
+
+.item :hover img {
+    opacity: 0.33;
+}
+
+.header{
+    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
